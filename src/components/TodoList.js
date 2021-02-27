@@ -37,7 +37,7 @@ const removeTodo=id=>{
     }
     return (
         <div>
-            <h1>What's the plan for today?</h1>
+            <h1>Plan Your Day</h1>
             <TodoForm onSubmit={addTodo}></TodoForm>
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo}
             updateTodo={updateTodo}/>
